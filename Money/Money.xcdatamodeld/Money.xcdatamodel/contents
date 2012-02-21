@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="872" systemVersion="11C74" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Category" representedClassName="Category" syncable="YES">
+        <attribute name="color" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="movements" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Movement" inverseName="category" inverseEntity="Movement" syncable="YES"/>
+    </entity>
+    <entity name="Movement" representedClassName="Movement" syncable="YES">
+        <attribute name="bookmark" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="date" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="fixed" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="flow" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="value" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <relationship name="category" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Category" inverseName="movements" inverseEntity="Category" syncable="YES"/>
+        <relationship name="pig" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Pig" inverseName="movements" inverseEntity="Pig" syncable="YES"/>
+    </entity>
+    <entity name="Pig" representedClassName="Pig" syncable="YES">
+        <attribute name="icon" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="value" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <relationship name="movements" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Movement" inverseName="pig" inverseEntity="Movement" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Category" positionX="126" positionY="9" width="128" height="90"/>
+        <element name="Movement" positionX="160" positionY="192" width="128" height="165"/>
+        <element name="Pig" positionX="-162" positionY="66" width="128" height="105"/>
+    </elements>
+</model>

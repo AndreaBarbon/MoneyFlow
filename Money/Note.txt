@@ -1,0 +1,13 @@
+Cosa da sistemare:
+
+Principali:
+• risolvere il problema dell'altezza della pieChart (ottimale una tableview)
+• tasto invio in categorie e movimenti
+• altri grafici
+
+Secondo piano
+• aggiornare data se cambia giorno
+• nessun dato questo mese. Torna al presente
+• altezza della Edit view in caso di modifica
+• movimenti uguali dovrebbero essere trattati come un unico oggetto?
+

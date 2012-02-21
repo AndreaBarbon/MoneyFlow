@@ -1,0 +1,770 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B8026C2714E6813600AF9699 /* EditMovementViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8026C2514E6813500AF9699 /* EditMovementViewController.m */; };
+		B8026C2814E6813600AF9699 /* EditMovementViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B8026C2614E6813600AF9699 /* EditMovementViewController.xib */; };
+		B8026C2A14E6AB9600AF9699 /* Note.txt in Resources */ = {isa = PBXBuildFile; fileRef = B8026C2914E6AB9600AF9699 /* Note.txt */; };
+		B8026C3214E6E85A00AF9699 /* MovementCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B8026C3114E6E85A00AF9699 /* MovementCell.m */; };
+		B8026C3814E6E8E000AF9699 /* MovementCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B8026C3714E6E8E000AF9699 /* MovementCell.xib */; };
+		B8026C6514E842CE00AF9699 /* HalfPieChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8026C4014E842CE00AF9699 /* HalfPieChartViewController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B8026C6614E842CE00AF9699 /* back_button.png in Resources */ = {isa = PBXBuildFile; fileRef = B8026C4214E842CE00AF9699 /* back_button.png */; };
+		B8026C6714E842CE00AF9699 /* back_button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B8026C4314E842CE00AF9699 /* back_button@2x.png */; };
+		B8026C6814E842CE00AF9699 /* AppDelegate_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = B8026C4614E842CE00AF9699 /* AppDelegate_iPad.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B8026C6914E842CE00AF9699 /* MainWindow_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = B8026C4714E842CE00AF9699 /* MainWindow_iPad.xib */; };
+		B8026C6A14E842CE00AF9699 /* AppDelegate_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = B8026C4A14E842CE00AF9699 /* AppDelegate_iPhone.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B8026C6B14E842CE00AF9699 /* ChartListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8026C4C14E842CE00AF9699 /* ChartListViewController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B8026C6C14E842CE00AF9699 /* GenericViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8026C4E14E842CE00AF9699 /* GenericViewController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B8026C6D14E842CE00AF9699 /* LineChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8026C5014E842CE00AF9699 /* LineChartViewController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B8026C6E14E842CE00AF9699 /* MainWindow_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = B8026C5114E842CE00AF9699 /* MainWindow_iPhone.xib */; };
+		B8026C6F14E842CE00AF9699 /* PieChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8026C5314E842CE00AF9699 /* PieChartViewController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B8026C7014E842CE00AF9699 /* PieChartViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = B8026C5514E842CE00AF9699 /* PieChartViewController2.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B8026C7114E842CE00AF9699 /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = B8026C5814E842CE00AF9699 /* JSONKit.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B8026C7214E842CE00AF9699 /* PCHalfPieChart.m in Sources */ = {isa = PBXBuildFile; fileRef = B8026C5A14E842CE00AF9699 /* PCHalfPieChart.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B8026C7314E842CE00AF9699 /* sample_linechart_data.json in Resources */ = {isa = PBXBuildFile; fileRef = B8026C5D14E842CE00AF9699 /* sample_linechart_data.json */; };
+		B8026C7414E842CE00AF9699 /* sample_piechart_data.plist in Resources */ = {isa = PBXBuildFile; fileRef = B8026C5E14E842CE00AF9699 /* sample_piechart_data.plist */; };
+		B8026C7614E842CE00AF9699 /* PCLineChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = B8026C6214E842CE00AF9699 /* PCLineChartView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B8026C7714E842CE00AF9699 /* PCPieChart.m in Sources */ = {isa = PBXBuildFile; fileRef = B8026C6414E842CE00AF9699 /* PCPieChart.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B8026C7F14E8495700AF9699 /* PieChartController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8026C7D14E8495500AF9699 /* PieChartController.m */; };
+		B8026C8014E8495700AF9699 /* PieChartController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B8026C7E14E8495600AF9699 /* PieChartController.xib */; };
+		B80C78E414F311FE00B4B89D /* ChoosePig.xib in Resources */ = {isa = PBXBuildFile; fileRef = B80C78E314F311FE00B4B89D /* ChoosePig.xib */; };
+		B8158DE714EFDB7F00B9572B /* Pig.m in Sources */ = {isa = PBXBuildFile; fileRef = B8158DE614EFDB7E00B9572B /* Pig.m */; };
+		B8158DEA14EFDB8000B9572B /* Link.m in Sources */ = {isa = PBXBuildFile; fileRef = B8158DE914EFDB8000B9572B /* Link.m */; };
+		B8158DED14EFDB8100B9572B /* Movement.m in Sources */ = {isa = PBXBuildFile; fileRef = B8158DEC14EFDB8000B9572B /* Movement.m */; };
+		B82E6C7214E081B500E5C76D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B82E6C7114E081B500E5C76D /* UIKit.framework */; };
+		B82E6C7414E081B500E5C76D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B82E6C7314E081B500E5C76D /* Foundation.framework */; };
+		B82E6C7614E081B500E5C76D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B82E6C7514E081B500E5C76D /* CoreGraphics.framework */; };
+		B82E6C7814E081B500E5C76D /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B82E6C7714E081B500E5C76D /* CoreData.framework */; };
+		B82E6C7E14E081B500E5C76D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B82E6C7C14E081B500E5C76D /* InfoPlist.strings */; };
+		B82E6C8014E081B500E5C76D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B82E6C7F14E081B500E5C76D /* main.m */; };
+		B82E6C8414E081B500E5C76D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B82E6C8314E081B500E5C76D /* AppDelegate.m */; };
+		B82E6C8714E081B500E5C76D /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B82E6C8514E081B500E5C76D /* MainStoryboard_iPhone.storyboard */; };
+		B82E6C8A14E081B500E5C76D /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B82E6C8814E081B500E5C76D /* MainStoryboard_iPad.storyboard */; };
+		B82E6C8D14E081B500E5C76D /* Money.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B82E6C8B14E081B500E5C76D /* Money.xcdatamodeld */; };
+		B82E6C9014E081B500E5C76D /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B82E6C8F14E081B500E5C76D /* MainViewController.m */; };
+		B82E6C9314E081B500E5C76D /* FlipsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B82E6C9214E081B500E5C76D /* FlipsideViewController.m */; };
+		B82E6C9B14E081B500E5C76D /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B82E6C9A14E081B500E5C76D /* SenTestingKit.framework */; };
+		B82E6C9C14E081B500E5C76D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B82E6C7114E081B500E5C76D /* UIKit.framework */; };
+		B82E6C9D14E081B500E5C76D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B82E6C7314E081B500E5C76D /* Foundation.framework */; };
+		B82E6C9E14E081B500E5C76D /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B82E6C7714E081B500E5C76D /* CoreData.framework */; };
+		B82E6CA614E081B500E5C76D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B82E6CA414E081B500E5C76D /* InfoPlist.strings */; };
+		B82E6CA914E081B500E5C76D /* MoneyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B82E6CA814E081B500E5C76D /* MoneyTests.m */; };
+		B835422F14E5AFF900C2DB52 /* NewCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = B835422D14E5AFF900C2DB52 /* NewCategory.m */; };
+		B835423014E5AFF900C2DB52 /* NewCategory.xib in Resources */ = {isa = PBXBuildFile; fileRef = B835422E14E5AFF900C2DB52 /* NewCategory.xib */; };
+		B89D228314ED6DAB00824B7A /* GraphViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B89D228114ED6DAB00824B7A /* GraphViewController.m */; };
+		B89D228414ED6DAB00824B7A /* GraphViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B89D228214ED6DAB00824B7A /* GraphViewController.xib */; };
+		B8B2218514E59B1100B11412 /* Category.m in Sources */ = {isa = PBXBuildFile; fileRef = B8B2218414E59B1000B11412 /* Category.m */; };
+		B8C7E9D514F1B31200117CEE /* ChoosePig.m in Sources */ = {isa = PBXBuildFile; fileRef = B8C7E9D314F1B31200117CEE /* ChoosePig.m */; };
+		B8C7E9DA14F1CBFF00117CEE /* MoneyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8C7E9D914F1CBFF00117CEE /* MoneyViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B82E6C9F14E081B500E5C76D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B82E6C6414E081B400E5C76D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B82E6C6C14E081B500E5C76D;
+			remoteInfo = Money;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B8026C2414E6813500AF9699 /* EditMovementViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditMovementViewController.h; sourceTree = "<group>"; };
+		B8026C2514E6813500AF9699 /* EditMovementViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditMovementViewController.m; sourceTree = "<group>"; };
+		B8026C2614E6813600AF9699 /* EditMovementViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EditMovementViewController.xib; sourceTree = "<group>"; };
+		B8026C2914E6AB9600AF9699 /* Note.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Note.txt; sourceTree = "<group>"; };
+		B8026C3014E6E85A00AF9699 /* MovementCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovementCell.h; sourceTree = "<group>"; };
+		B8026C3114E6E85A00AF9699 /* MovementCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovementCell.m; sourceTree = "<group>"; };
+		B8026C3714E6E8E000AF9699 /* MovementCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MovementCell.xib; sourceTree = "<group>"; };
+		B8026C3F14E842CE00AF9699 /* HalfPieChartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HalfPieChartViewController.h; sourceTree = "<group>"; };
+		B8026C4014E842CE00AF9699 /* HalfPieChartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HalfPieChartViewController.m; sourceTree = "<group>"; };
+		B8026C4214E842CE00AF9699 /* back_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back_button.png; sourceTree = "<group>"; };
+		B8026C4314E842CE00AF9699 /* back_button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back_button@2x.png"; sourceTree = "<group>"; };
+		B8026C4514E842CE00AF9699 /* AppDelegate_iPad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate_iPad.h; sourceTree = "<group>"; };
+		B8026C4614E842CE00AF9699 /* AppDelegate_iPad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate_iPad.m; sourceTree = "<group>"; };
+		B8026C4714E842CE00AF9699 /* MainWindow_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindow_iPad.xib; sourceTree = "<group>"; };
+		B8026C4914E842CE00AF9699 /* AppDelegate_iPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate_iPhone.h; sourceTree = "<group>"; };
+		B8026C4A14E842CE00AF9699 /* AppDelegate_iPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate_iPhone.m; sourceTree = "<group>"; };
+		B8026C4B14E842CE00AF9699 /* ChartListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChartListViewController.h; sourceTree = "<group>"; };
+		B8026C4C14E842CE00AF9699 /* ChartListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChartListViewController.m; sourceTree = "<group>"; };
+		B8026C4D14E842CE00AF9699 /* GenericViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GenericViewController.h; sourceTree = "<group>"; };
+		B8026C4E14E842CE00AF9699 /* GenericViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GenericViewController.m; sourceTree = "<group>"; };
+		B8026C4F14E842CE00AF9699 /* LineChartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineChartViewController.h; sourceTree = "<group>"; };
+		B8026C5014E842CE00AF9699 /* LineChartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LineChartViewController.m; sourceTree = "<group>"; };
+		B8026C5114E842CE00AF9699 /* MainWindow_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindow_iPhone.xib; sourceTree = "<group>"; };
+		B8026C5214E842CE00AF9699 /* PieChartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PieChartViewController.h; sourceTree = "<group>"; };
+		B8026C5314E842CE00AF9699 /* PieChartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PieChartViewController.m; sourceTree = "<group>"; };
+		B8026C5414E842CE00AF9699 /* PieChartViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PieChartViewController2.h; sourceTree = "<group>"; };
+		B8026C5514E842CE00AF9699 /* PieChartViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PieChartViewController2.m; sourceTree = "<group>"; };
+		B8026C5714E842CE00AF9699 /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
+		B8026C5814E842CE00AF9699 /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
+		B8026C5914E842CE00AF9699 /* PCHalfPieChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCHalfPieChart.h; sourceTree = "<group>"; };
+		B8026C5A14E842CE00AF9699 /* PCHalfPieChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCHalfPieChart.m; sourceTree = "<group>"; };
+		B8026C5B14E842CE00AF9699 /* PlotCreator_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlotCreator_Prefix.pch; sourceTree = "<group>"; };
+		B8026C5D14E842CE00AF9699 /* sample_linechart_data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = sample_linechart_data.json; sourceTree = "<group>"; };
+		B8026C5E14E842CE00AF9699 /* sample_piechart_data.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = sample_piechart_data.plist; sourceTree = "<group>"; };
+		B8026C6014E842CE00AF9699 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B8026C6114E842CE00AF9699 /* PCLineChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCLineChartView.h; sourceTree = "<group>"; };
+		B8026C6214E842CE00AF9699 /* PCLineChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCLineChartView.m; sourceTree = "<group>"; };
+		B8026C6314E842CE00AF9699 /* PCPieChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCPieChart.h; sourceTree = "<group>"; };
+		B8026C6414E842CE00AF9699 /* PCPieChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCPieChart.m; sourceTree = "<group>"; };
+		B8026C7C14E8495400AF9699 /* PieChartController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PieChartController.h; sourceTree = "<group>"; };
+		B8026C7D14E8495500AF9699 /* PieChartController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PieChartController.m; sourceTree = "<group>"; };
+		B8026C7E14E8495600AF9699 /* PieChartController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PieChartController.xib; sourceTree = "<group>"; };
+		B80C78E314F311FE00B4B89D /* ChoosePig.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChoosePig.xib; sourceTree = "<group>"; };
+		B8158DDD14EFC16600B9572B /* Money new.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Money new.xcdatamodel"; sourceTree = "<group>"; };
+		B8158DDF14EFC51C00B9572B /* Money2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Money2.xcdatamodel; sourceTree = "<group>"; };
+		B8158DE014EFCB2000B9572B /* Money3.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Money3.xcdatamodel; sourceTree = "<group>"; };
+		B8158DE114EFCBAF00B9572B /* Money4.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Money4.xcdatamodel; sourceTree = "<group>"; };
+		B8158DE214EFCC2200B9572B /* Money5.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Money5.xcdatamodel; sourceTree = "<group>"; };
+		B8158DE314EFCC7F00B9572B /* Money6.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Money6.xcdatamodel; sourceTree = "<group>"; };
+		B8158DE414EFCD2300B9572B /* Money7.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Money7.xcdatamodel; sourceTree = "<group>"; };
+		B8158DE514EFDB7E00B9572B /* Pig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pig.h; sourceTree = "<group>"; };
+		B8158DE614EFDB7E00B9572B /* Pig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pig.m; sourceTree = "<group>"; };
+		B8158DE814EFDB7F00B9572B /* Link.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Link.h; sourceTree = "<group>"; };
+		B8158DE914EFDB8000B9572B /* Link.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Link.m; sourceTree = "<group>"; };
+		B8158DEB14EFDB8000B9572B /* Movement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Movement.h; sourceTree = "<group>"; };
+		B8158DEC14EFDB8000B9572B /* Movement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Movement.m; sourceTree = "<group>"; };
+		B82E6C6D14E081B500E5C76D /* Money.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Money.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B82E6C7114E081B500E5C76D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B82E6C7314E081B500E5C76D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B82E6C7514E081B500E5C76D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B82E6C7714E081B500E5C76D /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		B82E6C7B14E081B500E5C76D /* Money-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Money-Info.plist"; sourceTree = "<group>"; };
+		B82E6C7D14E081B500E5C76D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B82E6C7F14E081B500E5C76D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B82E6C8114E081B500E5C76D /* Money-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Money-Prefix.pch"; sourceTree = "<group>"; };
+		B82E6C8214E081B500E5C76D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B82E6C8314E081B500E5C76D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B82E6C8614E081B500E5C76D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		B82E6C8914E081B500E5C76D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		B82E6C8C14E081B500E5C76D /* Money.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Money.xcdatamodel; sourceTree = "<group>"; };
+		B82E6C8E14E081B500E5C76D /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		B82E6C8F14E081B500E5C76D /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		B82E6C9114E081B500E5C76D /* FlipsideViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlipsideViewController.h; sourceTree = "<group>"; };
+		B82E6C9214E081B500E5C76D /* FlipsideViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlipsideViewController.m; sourceTree = "<group>"; };
+		B82E6C9914E081B500E5C76D /* MoneyTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoneyTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B82E6C9A14E081B500E5C76D /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		B82E6CA314E081B500E5C76D /* MoneyTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MoneyTests-Info.plist"; sourceTree = "<group>"; };
+		B82E6CA514E081B500E5C76D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B82E6CA714E081B500E5C76D /* MoneyTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MoneyTests.h; sourceTree = "<group>"; };
+		B82E6CA814E081B500E5C76D /* MoneyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MoneyTests.m; sourceTree = "<group>"; };
+		B835422C14E5AFF900C2DB52 /* NewCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewCategory.h; sourceTree = "<group>"; };
+		B835422D14E5AFF900C2DB52 /* NewCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewCategory.m; sourceTree = "<group>"; };
+		B835422E14E5AFF900C2DB52 /* NewCategory.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewCategory.xib; sourceTree = "<group>"; };
+		B89D228014ED6DAB00824B7A /* GraphViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GraphViewController.h; sourceTree = "<group>"; };
+		B89D228114ED6DAB00824B7A /* GraphViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GraphViewController.m; sourceTree = "<group>"; };
+		B89D228214ED6DAB00824B7A /* GraphViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GraphViewController.xib; sourceTree = "<group>"; };
+		B8B2218314E59B1000B11412 /* Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Category.h; sourceTree = "<group>"; };
+		B8B2218414E59B1000B11412 /* Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Category.m; sourceTree = "<group>"; };
+		B8C7E9D214F1B31200117CEE /* ChoosePig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChoosePig.h; sourceTree = "<group>"; };
+		B8C7E9D314F1B31200117CEE /* ChoosePig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChoosePig.m; sourceTree = "<group>"; };
+		B8C7E9D814F1CBFE00117CEE /* MoneyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoneyViewController.h; sourceTree = "<group>"; };
+		B8C7E9D914F1CBFF00117CEE /* MoneyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoneyViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B82E6C6A14E081B500E5C76D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B82E6C7214E081B500E5C76D /* UIKit.framework in Frameworks */,
+				B82E6C7414E081B500E5C76D /* Foundation.framework in Frameworks */,
+				B82E6C7614E081B500E5C76D /* CoreGraphics.framework in Frameworks */,
+				B82E6C7814E081B500E5C76D /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B82E6C9514E081B500E5C76D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B82E6C9B14E081B500E5C76D /* SenTestingKit.framework in Frameworks */,
+				B82E6C9C14E081B500E5C76D /* UIKit.framework in Frameworks */,
+				B82E6C9D14E081B500E5C76D /* Foundation.framework in Frameworks */,
+				B82E6C9E14E081B500E5C76D /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B8026C2B14E6E7CB00AF9699 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				B8026C3014E6E85A00AF9699 /* MovementCell.h */,
+				B8026C3114E6E85A00AF9699 /* MovementCell.m */,
+				B8026C3714E6E8E000AF9699 /* MovementCell.xib */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		B8026C3E14E842CD00AF9699 /* iOSPlot Framework */ = {
+			isa = PBXGroup;
+			children = (
+				B8026C3F14E842CE00AF9699 /* HalfPieChartViewController.h */,
+				B8026C4014E842CE00AF9699 /* HalfPieChartViewController.m */,
+				B8026C4114E842CE00AF9699 /* Images */,
+				B8026C4414E842CE00AF9699 /* iPad */,
+				B8026C4814E842CE00AF9699 /* iPhone */,
+				B8026C5614E842CE00AF9699 /* JSONKit */,
+				B8026C5914E842CE00AF9699 /* PCHalfPieChart.h */,
+				B8026C5A14E842CE00AF9699 /* PCHalfPieChart.m */,
+				B8026C5B14E842CE00AF9699 /* PlotCreator_Prefix.pch */,
+				B8026C5C14E842CE00AF9699 /* Sample Data */,
+				B8026C5F14E842CE00AF9699 /* Shared */,
+			);
+			path = "iOSPlot Framework";
+			sourceTree = "<group>";
+		};
+		B8026C4114E842CE00AF9699 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				B8026C4214E842CE00AF9699 /* back_button.png */,
+				B8026C4314E842CE00AF9699 /* back_button@2x.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		B8026C4414E842CE00AF9699 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+				B8026C4514E842CE00AF9699 /* AppDelegate_iPad.h */,
+				B8026C4614E842CE00AF9699 /* AppDelegate_iPad.m */,
+				B8026C4714E842CE00AF9699 /* MainWindow_iPad.xib */,
+			);
+			path = iPad;
+			sourceTree = "<group>";
+		};
+		B8026C4814E842CE00AF9699 /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				B8026C4914E842CE00AF9699 /* AppDelegate_iPhone.h */,
+				B8026C4A14E842CE00AF9699 /* AppDelegate_iPhone.m */,
+				B8026C4B14E842CE00AF9699 /* ChartListViewController.h */,
+				B8026C4C14E842CE00AF9699 /* ChartListViewController.m */,
+				B8026C4D14E842CE00AF9699 /* GenericViewController.h */,
+				B8026C4E14E842CE00AF9699 /* GenericViewController.m */,
+				B8026C4F14E842CE00AF9699 /* LineChartViewController.h */,
+				B8026C5014E842CE00AF9699 /* LineChartViewController.m */,
+				B8026C5114E842CE00AF9699 /* MainWindow_iPhone.xib */,
+				B8026C5214E842CE00AF9699 /* PieChartViewController.h */,
+				B8026C5314E842CE00AF9699 /* PieChartViewController.m */,
+				B8026C5414E842CE00AF9699 /* PieChartViewController2.h */,
+				B8026C5514E842CE00AF9699 /* PieChartViewController2.m */,
+			);
+			path = iPhone;
+			sourceTree = "<group>";
+		};
+		B8026C5614E842CE00AF9699 /* JSONKit */ = {
+			isa = PBXGroup;
+			children = (
+				B8026C5714E842CE00AF9699 /* JSONKit.h */,
+				B8026C5814E842CE00AF9699 /* JSONKit.m */,
+			);
+			path = JSONKit;
+			sourceTree = "<group>";
+		};
+		B8026C5C14E842CE00AF9699 /* Sample Data */ = {
+			isa = PBXGroup;
+			children = (
+				B8026C5D14E842CE00AF9699 /* sample_linechart_data.json */,
+				B8026C5E14E842CE00AF9699 /* sample_piechart_data.plist */,
+			);
+			path = "Sample Data";
+			sourceTree = "<group>";
+		};
+		B8026C5F14E842CE00AF9699 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				B8026C6014E842CE00AF9699 /* main.m */,
+				B8026C6114E842CE00AF9699 /* PCLineChartView.h */,
+				B8026C6214E842CE00AF9699 /* PCLineChartView.m */,
+				B8026C6314E842CE00AF9699 /* PCPieChart.h */,
+				B8026C6414E842CE00AF9699 /* PCPieChart.m */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		B82E6C6214E081B400E5C76D = {
+			isa = PBXGroup;
+			children = (
+				B82E6C7914E081B500E5C76D /* Money */,
+				B82E6CA114E081B500E5C76D /* MoneyTests */,
+				B82E6C7014E081B500E5C76D /* Frameworks */,
+				B82E6C6E14E081B500E5C76D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B82E6C6E14E081B500E5C76D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B82E6C6D14E081B500E5C76D /* Money.app */,
+				B82E6C9914E081B500E5C76D /* MoneyTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B82E6C7014E081B500E5C76D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B82E6C7114E081B500E5C76D /* UIKit.framework */,
+				B82E6C7314E081B500E5C76D /* Foundation.framework */,
+				B82E6C7514E081B500E5C76D /* CoreGraphics.framework */,
+				B82E6C7714E081B500E5C76D /* CoreData.framework */,
+				B82E6C9A14E081B500E5C76D /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B82E6C7914E081B500E5C76D /* Money */ = {
+			isa = PBXGroup;
+			children = (
+				B8026C3E14E842CD00AF9699 /* iOSPlot Framework */,
+				B8026C2B14E6E7CB00AF9699 /* Cells */,
+				B8C7E9D814F1CBFE00117CEE /* MoneyViewController.h */,
+				B8C7E9D914F1CBFF00117CEE /* MoneyViewController.m */,
+				B82E6C8214E081B500E5C76D /* AppDelegate.h */,
+				B82E6C8314E081B500E5C76D /* AppDelegate.m */,
+				B82E6C8514E081B500E5C76D /* MainStoryboard_iPhone.storyboard */,
+				B82E6C8814E081B500E5C76D /* MainStoryboard_iPad.storyboard */,
+				B82E6C8E14E081B500E5C76D /* MainViewController.h */,
+				B82E6C8F14E081B500E5C76D /* MainViewController.m */,
+				B82E6C9114E081B500E5C76D /* FlipsideViewController.h */,
+				B82E6C9214E081B500E5C76D /* FlipsideViewController.m */,
+				B8026C2414E6813500AF9699 /* EditMovementViewController.h */,
+				B8026C2514E6813500AF9699 /* EditMovementViewController.m */,
+				B8026C2614E6813600AF9699 /* EditMovementViewController.xib */,
+				B8C7E9D214F1B31200117CEE /* ChoosePig.h */,
+				B8C7E9D314F1B31200117CEE /* ChoosePig.m */,
+				B80C78E314F311FE00B4B89D /* ChoosePig.xib */,
+				B8026C7C14E8495400AF9699 /* PieChartController.h */,
+				B8026C7D14E8495500AF9699 /* PieChartController.m */,
+				B8026C7E14E8495600AF9699 /* PieChartController.xib */,
+				B89D228014ED6DAB00824B7A /* GraphViewController.h */,
+				B89D228114ED6DAB00824B7A /* GraphViewController.m */,
+				B89D228214ED6DAB00824B7A /* GraphViewController.xib */,
+				B835422C14E5AFF900C2DB52 /* NewCategory.h */,
+				B835422D14E5AFF900C2DB52 /* NewCategory.m */,
+				B835422E14E5AFF900C2DB52 /* NewCategory.xib */,
+				B835422814E5AF2400C2DB52 /* Data models */,
+				B82E6C8B14E081B500E5C76D /* Money.xcdatamodeld */,
+				B82E6C7A14E081B500E5C76D /* Supporting Files */,
+				B8026C2914E6AB9600AF9699 /* Note.txt */,
+			);
+			path = Money;
+			sourceTree = "<group>";
+		};
+		B82E6C7A14E081B500E5C76D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B82E6C7B14E081B500E5C76D /* Money-Info.plist */,
+				B82E6C7C14E081B500E5C76D /* InfoPlist.strings */,
+				B82E6C7F14E081B500E5C76D /* main.m */,
+				B82E6C8114E081B500E5C76D /* Money-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B82E6CA114E081B500E5C76D /* MoneyTests */ = {
+			isa = PBXGroup;
+			children = (
+				B82E6CA714E081B500E5C76D /* MoneyTests.h */,
+				B82E6CA814E081B500E5C76D /* MoneyTests.m */,
+				B82E6CA214E081B500E5C76D /* Supporting Files */,
+			);
+			path = MoneyTests;
+			sourceTree = "<group>";
+		};
+		B82E6CA214E081B500E5C76D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B82E6CA314E081B500E5C76D /* MoneyTests-Info.plist */,
+				B82E6CA414E081B500E5C76D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B835422814E5AF2400C2DB52 /* Data models */ = {
+			isa = PBXGroup;
+			children = (
+				B8158DEB14EFDB8000B9572B /* Movement.h */,
+				B8158DEC14EFDB8000B9572B /* Movement.m */,
+				B8158DE814EFDB7F00B9572B /* Link.h */,
+				B8158DE914EFDB8000B9572B /* Link.m */,
+				B8158DE514EFDB7E00B9572B /* Pig.h */,
+				B8158DE614EFDB7E00B9572B /* Pig.m */,
+				B8B2218314E59B1000B11412 /* Category.h */,
+				B8B2218414E59B1000B11412 /* Category.m */,
+			);
+			name = "Data models";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B82E6C6C14E081B500E5C76D /* Money */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B82E6CAC14E081B500E5C76D /* Build configuration list for PBXNativeTarget "Money" */;
+			buildPhases = (
+				B82E6C6914E081B500E5C76D /* Sources */,
+				B82E6C6A14E081B500E5C76D /* Frameworks */,
+				B82E6C6B14E081B500E5C76D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Money;
+			productName = Money;
+			productReference = B82E6C6D14E081B500E5C76D /* Money.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B82E6C9814E081B500E5C76D /* MoneyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B82E6CAF14E081B500E5C76D /* Build configuration list for PBXNativeTarget "MoneyTests" */;
+			buildPhases = (
+				B82E6C9414E081B500E5C76D /* Sources */,
+				B82E6C9514E081B500E5C76D /* Frameworks */,
+				B82E6C9614E081B500E5C76D /* Resources */,
+				B82E6C9714E081B500E5C76D /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B82E6CA014E081B500E5C76D /* PBXTargetDependency */,
+			);
+			name = MoneyTests;
+			productName = MoneyTests;
+			productReference = B82E6C9914E081B500E5C76D /* MoneyTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B82E6C6414E081B400E5C76D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Università degli studi di Padova";
+			};
+			buildConfigurationList = B82E6C6714E081B400E5C76D /* Build configuration list for PBXProject "Money" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B82E6C6214E081B400E5C76D;
+			productRefGroup = B82E6C6E14E081B500E5C76D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B82E6C6C14E081B500E5C76D /* Money */,
+				B82E6C9814E081B500E5C76D /* MoneyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B82E6C6B14E081B500E5C76D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B82E6C7E14E081B500E5C76D /* InfoPlist.strings in Resources */,
+				B82E6C8714E081B500E5C76D /* MainStoryboard_iPhone.storyboard in Resources */,
+				B82E6C8A14E081B500E5C76D /* MainStoryboard_iPad.storyboard in Resources */,
+				B835423014E5AFF900C2DB52 /* NewCategory.xib in Resources */,
+				B8026C2814E6813600AF9699 /* EditMovementViewController.xib in Resources */,
+				B8026C2A14E6AB9600AF9699 /* Note.txt in Resources */,
+				B8026C3814E6E8E000AF9699 /* MovementCell.xib in Resources */,
+				B8026C6614E842CE00AF9699 /* back_button.png in Resources */,
+				B8026C6714E842CE00AF9699 /* back_button@2x.png in Resources */,
+				B8026C6914E842CE00AF9699 /* MainWindow_iPad.xib in Resources */,
+				B8026C6E14E842CE00AF9699 /* MainWindow_iPhone.xib in Resources */,
+				B8026C7314E842CE00AF9699 /* sample_linechart_data.json in Resources */,
+				B8026C7414E842CE00AF9699 /* sample_piechart_data.plist in Resources */,
+				B8026C8014E8495700AF9699 /* PieChartController.xib in Resources */,
+				B89D228414ED6DAB00824B7A /* GraphViewController.xib in Resources */,
+				B80C78E414F311FE00B4B89D /* ChoosePig.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B82E6C9614E081B500E5C76D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B82E6CA614E081B500E5C76D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B82E6C9714E081B500E5C76D /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B82E6C6914E081B500E5C76D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B82E6C8014E081B500E5C76D /* main.m in Sources */,
+				B82E6C8414E081B500E5C76D /* AppDelegate.m in Sources */,
+				B82E6C8D14E081B500E5C76D /* Money.xcdatamodeld in Sources */,
+				B82E6C9014E081B500E5C76D /* MainViewController.m in Sources */,
+				B82E6C9314E081B500E5C76D /* FlipsideViewController.m in Sources */,
+				B8B2218514E59B1100B11412 /* Category.m in Sources */,
+				B835422F14E5AFF900C2DB52 /* NewCategory.m in Sources */,
+				B8026C2714E6813600AF9699 /* EditMovementViewController.m in Sources */,
+				B8026C3214E6E85A00AF9699 /* MovementCell.m in Sources */,
+				B8026C6514E842CE00AF9699 /* HalfPieChartViewController.m in Sources */,
+				B8026C6814E842CE00AF9699 /* AppDelegate_iPad.m in Sources */,
+				B8026C6A14E842CE00AF9699 /* AppDelegate_iPhone.m in Sources */,
+				B8026C6B14E842CE00AF9699 /* ChartListViewController.m in Sources */,
+				B8026C6C14E842CE00AF9699 /* GenericViewController.m in Sources */,
+				B8026C6D14E842CE00AF9699 /* LineChartViewController.m in Sources */,
+				B8026C6F14E842CE00AF9699 /* PieChartViewController.m in Sources */,
+				B8026C7014E842CE00AF9699 /* PieChartViewController2.m in Sources */,
+				B8026C7114E842CE00AF9699 /* JSONKit.m in Sources */,
+				B8026C7214E842CE00AF9699 /* PCHalfPieChart.m in Sources */,
+				B8026C7614E842CE00AF9699 /* PCLineChartView.m in Sources */,
+				B8026C7714E842CE00AF9699 /* PCPieChart.m in Sources */,
+				B8026C7F14E8495700AF9699 /* PieChartController.m in Sources */,
+				B89D228314ED6DAB00824B7A /* GraphViewController.m in Sources */,
+				B8158DE714EFDB7F00B9572B /* Pig.m in Sources */,
+				B8158DEA14EFDB8000B9572B /* Link.m in Sources */,
+				B8158DED14EFDB8100B9572B /* Movement.m in Sources */,
+				B8C7E9D514F1B31200117CEE /* ChoosePig.m in Sources */,
+				B8C7E9DA14F1CBFF00117CEE /* MoneyViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B82E6C9414E081B500E5C76D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B82E6CA914E081B500E5C76D /* MoneyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B82E6CA014E081B500E5C76D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B82E6C6C14E081B500E5C76D /* Money */;
+			targetProxy = B82E6C9F14E081B500E5C76D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B82E6C7C14E081B500E5C76D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B82E6C7D14E081B500E5C76D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B82E6C8514E081B500E5C76D /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B82E6C8614E081B500E5C76D /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		B82E6C8814E081B500E5C76D /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B82E6C8914E081B500E5C76D /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		B82E6CA414E081B500E5C76D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B82E6CA514E081B500E5C76D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B82E6CAA14E081B500E5C76D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B82E6CAB14E081B500E5C76D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B82E6CAD14E081B500E5C76D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Money/Money-Prefix.pch";
+				INFOPLIST_FILE = "Money/Money-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B82E6CAE14E081B500E5C76D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Money/Money-Prefix.pch";
+				INFOPLIST_FILE = "Money/Money-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B82E6CB014E081B500E5C76D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Money.app/Money";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Money/Money-Prefix.pch";
+				INFOPLIST_FILE = "MoneyTests/MoneyTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		B82E6CB114E081B500E5C76D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Money.app/Money";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Money/Money-Prefix.pch";
+				INFOPLIST_FILE = "MoneyTests/MoneyTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B82E6C6714E081B400E5C76D /* Build configuration list for PBXProject "Money" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B82E6CAA14E081B500E5C76D /* Debug */,
+				B82E6CAB14E081B500E5C76D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B82E6CAC14E081B500E5C76D /* Build configuration list for PBXNativeTarget "Money" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B82E6CAD14E081B500E5C76D /* Debug */,
+				B82E6CAE14E081B500E5C76D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B82E6CAF14E081B500E5C76D /* Build configuration list for PBXNativeTarget "MoneyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B82E6CB014E081B500E5C76D /* Debug */,
+				B82E6CB114E081B500E5C76D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B82E6C8B14E081B500E5C76D /* Money.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B8158DDD14EFC16600B9572B /* Money new.xcdatamodel */,
+				B8158DDF14EFC51C00B9572B /* Money2.xcdatamodel */,
+				B8158DE014EFCB2000B9572B /* Money3.xcdatamodel */,
+				B8158DE114EFCBAF00B9572B /* Money4.xcdatamodel */,
+				B8158DE214EFCC2200B9572B /* Money5.xcdatamodel */,
+				B8158DE314EFCC7F00B9572B /* Money6.xcdatamodel */,
+				B8158DE414EFCD2300B9572B /* Money7.xcdatamodel */,
+				B82E6C8C14E081B500E5C76D /* Money.xcdatamodel */,
+			);
+			currentVersion = B8158DE414EFCD2300B9572B /* Money7.xcdatamodel */;
+			path = Money.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B82E6C6414E081B400E5C76D /* Project object */;
+}
